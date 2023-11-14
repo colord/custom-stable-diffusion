@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "WorkSans";
+  src: local("WorkSans"),
+   url("./fonts/WorkSans-Regular.ttf") format("truetype");
+  font-weight: 500;
+ }
+
+:root {
+  font-family: WorkSans;
+  line-height: 1.5;
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
